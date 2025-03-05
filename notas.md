@@ -59,3 +59,9 @@ OJO -> Recordar que al hacer commit, estos son registrados en la carpeta.
   git checkout -b <nombre de rama> //Crea y te mueve a dicha rama
 
 ```
+
+## Unificando archivos
+
+```bash
+  git merge < rama donde quiero que vengan los cambios >
+```
