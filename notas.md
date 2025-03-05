@@ -47,3 +47,15 @@ OJO -> Cuando hablamos de que los documentos están en STAGING, es que el archiv
 ¿Qué es un commit? -> Es un registro de los cambios realizados en los archivos de un repositorio
 
 OJO -> Recordar que al hacer commit, estos son registrados en la carpeta.
+
+## Utilizando ramas
+
+```bash
+  
+  git branch //Muestra el listado de ramas y especifica en cuál nos encontramos en dicho momento
+
+  git switch -c <nombre de rama> //Crea y te mueve a dicha rama
+
+  git checkout -b <nombre de rama> //Crea y te mueve a dicha rama
+
+```
