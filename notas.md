@@ -35,3 +35,15 @@
 ### Tomando en consideración
 
 OJO -> Cuando hablamos de que los documentos están en STAGING, es que el archivo no se encuentra registrado en la carpeta .git de nuestro repositorio.
+
+## Hacer commit de mis archivos
+
+```bash
+  git commit -m "mensaje" //El flag -m se refiere a message
+
+  git commit -am "mensaje" //Agrega a staging aquellos archivos que ya estaban creados y se les hicieron cambios. Sin embargo, no agregan archivos recién creados a staging, se debe usar "git add"
+```
+
+¿Qué es un commit? -> Es un registro de los cambios realizados en los archivos de un repositorio
+
+OJO -> Recordar que al hacer commit, estos son registrados en la carpeta.
