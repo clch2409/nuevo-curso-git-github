@@ -1,2 +1,3 @@
 Este es un archivo para usos practicos de crear conflictos en git
 
+Haciendo cambios desde la rama "developer"
