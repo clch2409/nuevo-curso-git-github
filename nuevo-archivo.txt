@@ -1,0 +1,1 @@
+Este es un archivo que creé con la función de hacer pruebas experimentales con el comando checkout
