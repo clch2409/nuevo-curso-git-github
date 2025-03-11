@@ -46,7 +46,7 @@ OJO -> Cuando hablamos de que los documentos están en STAGING, es que el archiv
 
 ¿Qué es un commit? -> Es un registro de los cambios realizados en los archivos de un repositorio
 
-OJO -> Recordar que al hacer commit, estos son registrados en la carpeta.
+OJO -> Recordar que al hacer commit, estos son registrados en la carpeta .git
 
 ## Utilizando ramas
 
@@ -64,4 +64,16 @@ OJO -> Recordar que al hacer commit, estos son registrados en la carpeta.
 
 ```bash
   git merge < rama donde quiero que vengan los cambios >
+```
+
+## Volviendo al pasado
+
+```bash
+  git reset --hard < hash del commit > //Se vuelve al commit que deseamos, al usar el flag "hard", los archivos de los nuevos commits se pierden.
+
+  git reset --soft < hash del commit > //Regresamos al commit deseado, sin embargo, no se pierden los archivos nuevos creados o modificados.
+
+  git reset --mixed < hash del commit > //Regresamos al commit deseado, sin embargo, los archivos nuevos creados hasta ese commit se toman como fuera del area de staging
+
+  git revert < hash del commit > //Se hace un nuevo commit, a partir del hash de un commit anterior
 ```
