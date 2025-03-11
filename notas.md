@@ -66,7 +66,7 @@ OJO -> Recordar que al hacer commit, este queda registrado en la carpeta .git
 
 ```bash
 
-  git merge < rama donde quiero que vengan los cambios >
+  git merge < rama donde quiero que vengan los cambios > //Tomar en consideración que debemos de estar seguros de que la rama en la que nos encontremos, es la rama principal de nuestro proyecto o una rama a la que deseemos obtener los cambios de la otra rama
 
 ```
 
@@ -93,5 +93,7 @@ OJO -> Recordar que al hacer commit, este queda registrado en la carpeta .git
   git show < nombre del tag > //Muestra con detalle la información del commit al que se le agregó dicho tag
 
   git tag -d < nombre del tag > //Se elimina el tag deseado
+
+  git checkout < hash del commit > //Permite regresar a un commit anterior
 
 ```
