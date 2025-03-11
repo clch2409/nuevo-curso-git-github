@@ -60,6 +60,8 @@ OJO -> Recordar que al hacer commit, este queda registrado en la carpeta .git
 
   git checkout -b < nombre de rama > //Crea y te mueve a dicha rama
 
+  git branch -d < nombre de rama > //Elimina la rama deseada
+
 ```
 
 ## Unificando archivos
