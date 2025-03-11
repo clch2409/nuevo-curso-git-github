@@ -1,2 +1,3 @@
 Este es un archivo para usos practicos de crear conflictos en git
 
+Este es un cambio desde la rama main
