@@ -99,3 +99,15 @@ OJO -> Recordar que al hacer commit, este queda registrado en la carpeta .git
   git checkout < hash del commit > //Permite regresar a un commit anterior
 
 ```
+
+## Clonando un repositorio remoto
+
+```bash
+
+  git clone < url del repositorio en GitHub >
+
+  git branch -M main
+  git remote add origin < url del repositorio en GitHub > //Tomar en consideración que esta manera se debe de hacer cuando el repositorio está vacío y ya exista en local
+  git push -u origin main
+
+```
