@@ -111,3 +111,13 @@ OJO -> Recordar que al hacer commit, este queda registrado en la carpeta .git
   git push -u origin main
 
 ```
+
+## Productos adicionales de Github
+
+* ***GitHub Projects***: Permite crear plantillas para llevar un control de las actividades dentro de un proyecto de software, cada tarea que agreguemos podemos relacionarla a un repositorio, a una persona y ver cómo avanza dicha tarea de manera visual.
+
+* ***[GitHub Codespaces](https://github.com/codespaces/new)***: Son pequeños contenedores en donde podemos ejecutar nuestro proyectos que tengamos en github, estos ayuda a que podamos trabajar de manera remota en cualquier dispositivo.
+
+* ***[GitHub Gists](https://gist.github.com)***: Permite compartir pequeños trozos de código con compañeros y estos se encuentra relacionado a tu cuenta de GitHub.
+
+* ***GitHub Pages***: Permite alojar páginas web desde un repositorio de GitHub.
