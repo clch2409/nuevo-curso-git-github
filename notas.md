@@ -131,3 +131,11 @@ OJO -> Recordar que al hacer commit, este queda registrado en la carpeta .git
 5. Clonar el repositorio e ingresar las credenciales que se piden y en contraseña, colocar el token creado.
 
 ## Proteger los paquetes de un proyecto
+
+Debemos de habilitar las funciones de DependaBot en los settings del repositorio, por lo que cada vez que las dependendcias de dicho proyecto se vayan actualizando, DependaBot los va a reconocer. Este creará un pull request para dejar en el repositorio los cambios realizados.
+
+## Mantenimiento de repositorios seguros
+
+* Mantener aquellos proyectos que deseamos compartir con pocas personas en privado.
+* Crear archivos .gitignore para evitar subir archivos no deseados, que tengan información delicada de nuestro proyecto
+  * NOTA: Para que no se suban los archivos o las carpetas que tenemos en el .gitignore, pero se encuentran en el repositorio remoto, debemos de borrarlas en el repositorio local y de ahí hacer un push. A partir de eso, no se guardarán en el repositorio remoto
