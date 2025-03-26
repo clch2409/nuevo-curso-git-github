@@ -138,4 +138,9 @@ Debemos de habilitar las funciones de DependaBot en los settings del repositorio
 
 * Mantener aquellos proyectos que deseamos compartir con pocas personas en privado.
 * Crear archivos .gitignore para evitar subir archivos no deseados, que tengan información delicada de nuestro proyecto
-  * NOTA: Para que no se suban los archivos o las carpetas que tenemos en el .gitignore, pero se encuentran en el repositorio remoto, debemos de borrarlas en el repositorio local y de ahí hacer un push. A partir de eso, no se guardarán en el repositorio remoto
+  * NOTA: Para que no se suban los archivos o las carpetas que tenemos en el .gitignore, pero se encuentran en el repositorio remoto, debemos de borrarlas en el repositorio local y de ahí hacer un push. A partir de eso, no se guardarán en el repositorio remoto.
+
+## Escaneo automatico
+
+1. Matener el repositorio en público
+2. Habilitar el escaneo automático
