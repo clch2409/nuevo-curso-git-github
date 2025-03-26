@@ -121,3 +121,13 @@ OJO -> Recordar que al hacer commit, este queda registrado en la carpeta .git
 * ***[GitHub Gists](https://gist.github.com)***: Permite compartir pequeños trozos de código con compañeros y estos se encuentra relacionado a tu cuenta de GitHub.
 
 * ***GitHub Pages***: Permite alojar páginas web desde un repositorio de GitHub.
+
+## Proteger tus proyectos privados con Tokens
+
+1. Crear un proyecto privado
+2. Ir a la sección de opciones de tu cuenta e ir a "developer settings" (al final)
+3. Crear un token con los permisos requeridos
+4. Mandar el token a la persona que lo utilizará
+5. Clonar el repositorio e ingresar las credenciales que se piden y en contraseña, colocar el token creado.
+
+## Proteger los paquetes de un proyecto
